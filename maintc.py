@@ -1895,4 +1895,4 @@ async def tchelp(ctx):
 
 
 keep_alive()												
-client.run("NTUyMDk5MjAyNzIxOTA2NzA1.D2sFVQ.Fx3nPjfzhybWV_-5K9EkCeuIOas")
+client.run("TOKEN")
