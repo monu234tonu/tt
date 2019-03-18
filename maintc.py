@@ -8,7 +8,7 @@ import aiohttp
 import csv
 import json
 import datetime
-from keep_alive import keep_alive
+
 
 client = Bot(command_prefix=',')
 client.remove_command('help')
@@ -1894,5 +1894,5 @@ async def tchelp(ctx):
 
 
 
-keep_alive()												
+												
 client.run("TOKEN")
