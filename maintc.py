@@ -11,13 +11,13 @@ import datetime
 
 
 client = Bot(command_prefix=',')
-client.remove_command('help')
+client.command('help')
 
 @client.event
 async def on_ready():
-	await client.change_presence(game=discord.Game(name='BY CRO'))
+	await client.change_presence(game=discord.Game(name='BY CAPTAIN MARVEL'))
 	print("Logged in as " + client.user.name)
-	print("Hey CRO I M Ready")
+	print("Hey! I M Ready")
 #BBLIFE
 
 
@@ -115,9 +115,9 @@ async def bblife(ctx, refercode=None, message=None):
 #LUNCHTIME LOCO 10/10
 @client.command(pass_context=True)
 async def ll10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Lunchtime Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -130,9 +130,9 @@ async def ll10 (ctx):
 #LOCO 9.5/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def llhr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -144,9 +144,9 @@ async def llhr (ctx):
 #LOCO 9.5/10 LAST SPLIT					
 @client.command(pass_context=True)
 async def llhs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -158,9 +158,9 @@ async def llhs (ctx):
 #LUNCHTIME LOCO 9/10 LAST RIGHT
 @client.command(pass_context=True)
 async def ll9r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Lunchtime Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -172,9 +172,9 @@ async def ll9r (ctx):
 #LUNCHTIME LOCO 9/10 LAST WRONG
 @client.command(pass_context=True)
 async def ll9w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Lunchtime Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -186,9 +186,9 @@ async def ll9w (ctx):
 #LUNCHTIME LOCO 8/10
 @client.command(pass_context=True)
 async def ll8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Lunchtime Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -201,9 +201,9 @@ async def ll8r (ctx):
 #LUNCHTIME LOCO 8/10
 @client.command(pass_context=True)
 async def ll8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Lunchtime Loco", inline=False)
 		embed.add_field(name="Time", value="1:30PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹25,000", inline=False)
@@ -216,9 +216,9 @@ async def ll8w (ctx):
 #LOCO PIC 10/10
 @client.command(pass_context=True)
 async def lp10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -232,9 +232,9 @@ async def lp10 (ctx):
 #LOCO PIC 9.5/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def lphr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -247,9 +247,9 @@ async def lphr (ctx):
 #LOCO PIC 9.5/10 LAST SPLIT						
 @client.command(pass_context=True)
 async def lphs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -263,9 +263,9 @@ async def lphs (ctx):
 #LOCO PIC 9/10 LAST RIGHT				
 @client.command(pass_context=True)
 async def lp9r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -278,9 +278,9 @@ async def lp9r (ctx):
 #LOCO PIC 9/10 LAST WRONG						
 @client.command(pass_context=True)
 async def lp9w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -293,9 +293,9 @@ async def lp9w (ctx):
 #LOCO PIC 8/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def lp8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -308,9 +308,9 @@ async def lp8r (ctx):
 #LOCO PIC 8/10 LAST WRONG						
 @client.command(pass_context=True)
 async def lp8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Pic", inline=False)
 		embed.add_field(name="Time", value="4:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -324,9 +324,9 @@ async def lp8w (ctx):
 #SPEED LOCO 10/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def sl10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -340,9 +340,9 @@ async def sl10 (ctx):
 #SPEED LOCO 9.5/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def slhr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -356,9 +356,9 @@ async def slhr (ctx):
 #SPEED LOCO 9.5/10 LAST SPLIT						
 @client.command(pass_context=True)
 async def slhw (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -372,9 +372,9 @@ async def slhw (ctx):
 #SPEED LOCO 9/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def sl9r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -389,9 +389,9 @@ async def sl9r (ctx):
 #SPEED LOCO 9/10 LAST WRONG						
 @client.command(pass_context=True)
 async def sl9w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -406,9 +406,9 @@ async def sl9w (ctx):
 #SPEED LOCO 8/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def sl8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -424,9 +424,9 @@ async def sl8r (ctx):
 #SPEED LOCO 8/10 LAST WRONG						
 @client.command(pass_context=True)
 async def sl8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Speed Loco", inline=False)
 		embed.add_field(name="Time", value="6:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹10,000", inline=False)
@@ -442,9 +442,9 @@ async def sl8w (ctx):
 #LOCO SPECIAL 10/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def ls10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -459,9 +459,9 @@ async def ls10 (ctx):
 #LOCO SPECIAL 9.5/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def lshr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -477,9 +477,9 @@ async def lshr (ctx):
 #LOCO SPECIAL 9.5/10 LAST SPLIT						
 @client.command(pass_context=True)
 async def lshs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -494,9 +494,9 @@ async def lshs (ctx):
 #LOCO SPECIAL 9/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def ls9r(ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -512,9 +512,9 @@ async def ls9r(ctx):
 #LOCO SPECIAL 9/10 LAST WRONG						
 @client.command(pass_context=True)
 async def ls9w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -529,9 +529,9 @@ async def ls9w (ctx):
 #LOCO SPECIAL 8/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def ls8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -546,9 +546,9 @@ async def ls8r (ctx):
 #LOCO SPECIAL 8/10 LAST WRONG						
 @client.command(pass_context=True)
 async def ls8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Special", inline=False)
 		embed.add_field(name="Time", value="8:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹20,000", inline=False)
@@ -563,9 +563,9 @@ async def ls8w (ctx):
 #LOCO NEWS 10/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def ln10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco News", inline=False)
 		embed.add_field(name="Time", value="9:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹5,000", inline=False)
@@ -579,9 +579,9 @@ async def ln10 (ctx):
 #LOCO NEWS 9.5/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def lnhr(ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco News", inline=False)
 		embed.add_field(name="Time", value="9:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹5,000", inline=False)
@@ -596,9 +596,9 @@ async def lnhr(ctx):
 #LOCO NEWS 9.5/10 LAST SPLIT						
 @client.command(pass_context=True)
 async def lnhs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco News", inline=False)
 		embed.add_field(name="Time", value="9:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹5,000", inline=False)
@@ -613,9 +613,9 @@ async def lnhs (ctx):
 #LOCO NEWS 8/10 LAST RIGHT						
 @client.command(pass_context=True)
 async def ln8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco News", inline=False)
 		embed.add_field(name="Time", value="9:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹5,000", inline=False)
@@ -631,9 +631,9 @@ async def ln8r (ctx):
 						
 @client.command(pass_context=True)
 async def ln8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco News", inline=False)
 		embed.add_field(name="Time", value="9:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹5,000", inline=False)
@@ -649,9 +649,9 @@ async def ln8w (ctx):
 						
 @client.command(pass_context=True)
 async def l10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -668,9 +668,9 @@ async def l10 (ctx):
 						
 @client.command(pass_context=True)
 async def lhr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -687,9 +687,9 @@ async def lhr (ctx):
 						
 @client.command(pass_context=True)
 async def lhs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -705,9 +705,9 @@ async def lhs (ctx):
 						
 @client.command(pass_context=True)
 async def l9r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -723,9 +723,9 @@ async def l9r (ctx):
 						
 @client.command(pass_context=True)
 async def l9w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -742,9 +742,9 @@ async def l9w (ctx):
 						
 @client.command(pass_context=True)
 async def l8r (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -760,9 +760,9 @@ async def l8r (ctx):
 						
 @client.command(pass_context=True)
 async def l8w (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco Quiz", inline=False)
 		embed.add_field(name="Time", value="10:00PM", inline=False)
 		embed.add_field(name="Prize Money", value="₹75,000", inline=False)
@@ -778,9 +778,9 @@ async def l8w (ctx):
 						
 @client.command(pass_context=True)
 async def le10 (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco English", inline=False)
 		embed.add_field(name="Time", value="9:00AM", inline=False)
 		embed.add_field(name="Prize Money", value="₹1,000", inline=False)
@@ -794,9 +794,9 @@ async def le10 (ctx):
 						
 @client.command(pass_context=True)
 async def lehr (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco English", inline=False)
 		embed.add_field(name="Time", value="9:00AM", inline=False)
 		embed.add_field(name="Prize Money", value="₹1,000", inline=False)
@@ -813,9 +813,9 @@ async def lehr (ctx):
 						
 @client.command(pass_context=True)
 async def lehs (ctx):
-		embed=discord.Embed(title="Loco", description="Accuracy of Loco by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555342508331368449/ezgif.com-video-to-gif.gif")
+		embed=discord.Embed(title="Loco", description="Accuracy of Loco by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://im.ezgif.com/tmp/ezgif-1-6845c5868ca1.gif")
 		embed.add_field(name="Game", value="Loco English", inline=False)
 		embed.add_field(name="Time", value="9:00AM", inline=False)
 		embed.add_field(name="Prize Money", value="₹1,000", inline=False)
@@ -835,8 +835,8 @@ async def lehs (ctx):
 						
 @client.command(pass_context=True)
 async def bm5 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi Mini", inline=False)
 		embed.add_field(name="Time", value="1:00PM", inline=False)
@@ -852,8 +852,8 @@ async def bm5 (ctx):
 						
 @client.command(pass_context=True)
 async def bm4 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi Mini", inline=False)
 		embed.add_field(name="Time", value="1:00PM", inline=False)
@@ -871,8 +871,8 @@ async def bm4 (ctx):
 						
 @client.command(pass_context=True)
 async def bm3 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi Mini", inline=False)
 		embed.add_field(name="Time", value="1:00PM", inline=False)
@@ -887,8 +887,8 @@ async def bm3 (ctx):
 						
 @client.command(pass_context=True)
 async def b9 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi", inline=False)
 		embed.add_field(name="Time", value="8:30PM", inline=False)
@@ -905,8 +905,8 @@ async def b9 (ctx):
 						
 @client.command(pass_context=True)
 async def b8 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi", inline=False)
 		embed.add_field(name="Time", value="8:30PM", inline=False)
@@ -921,8 +921,8 @@ async def b8 (ctx):
 						
 @client.command(pass_context=True)
 async def b7 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi", inline=False)
 		embed.add_field(name="Time", value="8:30PM", inline=False)
@@ -938,8 +938,8 @@ async def b7 (ctx):
 						
 @client.command(pass_context=True)
 async def b6 (ctx):
-		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="BrainBaazi", description="Accuracy of BrainBaazi by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555629263831957504/ezgif.com-video-to-gif.gif")
 		embed.add_field(name="Game", value="BrainBaazi", inline=False)
 		embed.add_field(name="Time", value="8:30PM", inline=False)
@@ -964,8 +964,8 @@ async def b6 (ctx):
 						
 @client.command(pass_context=True)
 async def h12 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Time", value="11:30PM", inline=False)
@@ -984,8 +984,8 @@ async def h12 (ctx):
 						
 @client.command(pass_context=True)
 async def h11 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime Pop-Quiz", inline=False)
 		embed.add_field(name="Time", value="11:30PM", inline=False)
@@ -1002,8 +1002,8 @@ async def h11 (ctx):
 						
 @client.command(pass_context=True)
 async def h10 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime Pop-Quiz", inline=False)
 		embed.add_field(name="Time", value="11:30PM", inline=False)
@@ -1019,8 +1019,8 @@ async def h10 (ctx):
 						
 @client.command(pass_context=True)
 async def ht12 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Time", value="7:30AM", inline=False)
@@ -1035,8 +1035,8 @@ async def ht12 (ctx):
 						
 @client.command(pass_context=True)
 async def ht11 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Time", value="7:30AM", inline=False)
@@ -1053,8 +1053,8 @@ async def ht11 (ctx):
 						
 @client.command(pass_context=True)
 async def ht10 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Time", value="7:30AM", inline=False)
@@ -1071,8 +1071,8 @@ async def ht10 (ctx):
 						
 @client.command(pass_context=True)
 async def h6 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Accuracy", value="6/6", inline=False)
@@ -1088,8 +1088,8 @@ async def h6 (ctx):
 						
 @client.command(pass_context=True)
 async def h5 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Accuracy", value="5/6", inline=False)
@@ -1105,8 +1105,8 @@ async def h5 (ctx):
 						
 @client.command(pass_context=True)
 async def ht5 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Accuracy", value="5/5", inline=False)
@@ -1121,8 +1121,8 @@ async def ht5 (ctx):
 						
 @client.command(pass_context=True)
 async def ht4 (ctx):
-		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Hangtime", description="Accuracy of Hangtime by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524019609403443/ezgif.com-video-to-gif_6.gif")
 		embed.add_field(name="Game", value="Hangtime", inline=False)
 		embed.add_field(name="Accuracy", value="4/5", inline=False)
@@ -1141,8 +1141,8 @@ async def ht4 (ctx):
 						
 @client.command(pass_context=True)
 async def tp12 (ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="5:45PM", inline=False)
@@ -1160,8 +1160,8 @@ async def tp12 (ctx):
 						
 @client.command(pass_context=True)
 async def tp11r(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="5:45PM", inline=False)
@@ -1178,8 +1178,8 @@ async def tp11r(ctx):
 						
 @client.command(pass_context=True)
 async def tp11w(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="5:45PM", inline=False)
@@ -1197,8 +1197,8 @@ async def tp11w(ctx):
 						
 @client.command(pass_context=True)
 async def tc12(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Coin Game", inline=False)
 		embed.add_field(name="Time", value="10:45PM", inline=False)
@@ -1215,8 +1215,8 @@ async def tc12(ctx):
 						
 @client.command(pass_context=True)
 async def tc11r(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Coin Game", inline=False)
 		embed.add_field(name="Time", value="10:45PM", inline=False)
@@ -1234,8 +1234,8 @@ async def tc11r(ctx):
 						
 @client.command(pass_context=True)
 async def tc11w(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Coin Game", inline=False)
 		embed.add_field(name="Time", value="10:45PM", inline=False)
@@ -1253,8 +1253,8 @@ async def tc11w(ctx):
 						
 @client.command(pass_context=True)
 async def tpg12(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="11:45PM", inline=False)
@@ -1272,8 +1272,8 @@ async def tpg12(ctx):
 						
 @client.command(pass_context=True)
 async def tpg11r(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="11:45PM", inline=False)
@@ -1290,8 +1290,8 @@ async def tpg11r(ctx):
 						
 @client.command(pass_context=True)
 async def tpg11w(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Daily Pro Game", inline=False)
 		embed.add_field(name="Time", value="11:45PM", inline=False)
@@ -1309,8 +1309,8 @@ async def tpg11w(ctx):
 						
 @client.command(pass_context=True)
 async def tb12(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Big Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1328,8 +1328,8 @@ async def tb12(ctx):
 						
 @client.command(pass_context=True)
 async def tb11r(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Big Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1346,8 +1346,8 @@ async def tb11r(ctx):
 						
 @client.command(pass_context=True)
 async def tb11w(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Big Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1364,8 +1364,8 @@ async def tb11w(ctx):
 						
 @client.command(pass_context=True)
 async def tm12(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Mega Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1382,8 +1382,8 @@ async def tm12(ctx):
 						
 @client.command(pass_context=True)
 async def tm11r(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Mega Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1401,8 +1401,8 @@ async def tm11r(ctx):
 						
 @client.command(pass_context=True)
 async def tm11w(ctx):
-		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Trivaa", description="Accuracy of Trivaa by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524171229167616/ezgif.com-video-to-gif_4.gif")
 		embed.add_field(name="Game", value="Trivaa Mega Game", inline=False)
 		embed.add_field(name="Time", value="12:45AM", inline=False)
@@ -1425,8 +1425,8 @@ async def tm11w(ctx):
 						
 @client.command(pass_context=True)
 async def s10(ctx):
-		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(2).gif")
 		embed.add_field(name="Game", value="SwagIQ", inline=False)
 		embed.add_field(name="Time", value="5:30AM", inline=False)
@@ -1444,8 +1444,8 @@ async def s10(ctx):
 						
 @client.command(pass_context=True)
 async def s9r(ctx):
-		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(2).gif")
 		embed.add_field(name="Game", value="SwagIQ", inline=False)
 		embed.add_field(name="Time", value="5:30AM", inline=False)
@@ -1462,8 +1462,8 @@ async def s9r(ctx):
 						
 @client.command(pass_context=True)
 async def s9w(ctx):
-		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(2).gif")
 		embed.add_field(name="Game", value="SwagIQ", inline=False)
 		embed.add_field(name="Time", value="5:30AM", inline=False)
@@ -1480,8 +1480,8 @@ async def s9w(ctx):
 						
 @client.command(pass_context=True)
 async def s8r(ctx):
-		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="hhttps://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(2).gif")
 		embed.add_field(name="Game", value="SwagIQ", inline=False)
 		embed.add_field(name="Time", value="5:30AM", inline=False)
@@ -1497,8 +1497,8 @@ async def s8r(ctx):
 						
 @client.command(pass_context=True)
 async def s8w(ctx):
-		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="SwagIQ", description="Accuracy of SwagIQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(2).gif")
 		embed.add_field(name="Game", value="SwagIQ", inline=False)
 		embed.add_field(name="Time", value="5:30AM", inline=False)
@@ -1522,8 +1522,8 @@ async def s8w(ctx):
 						
 @client.command(pass_context=True)
 async def o12(ctx):
-		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524097358954527/ezgif.com-video-to-gif_5.gif")
 		embed.add_field(name="Game", value="Out Of Tune", inline=False)
 		embed.add_field(name="Accuracy", value="12/12", inline=False)
@@ -1538,8 +1538,8 @@ async def o12(ctx):
 						
 @client.command(pass_context=True)
 async def o11r(ctx):
-		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524097358954527/ezgif.com-video-to-gif_5.gif")
 		embed.add_field(name="Game", value="Out Of Tune", inline=False)
 		embed.add_field(name="Accuracy", value="11/12", inline=False)
@@ -1555,8 +1555,8 @@ async def o11r(ctx):
 						
 @client.command(pass_context=True)
 async def o11w(ctx):
-		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524097358954527/ezgif.com-video-to-gif_5.gif")
 		embed.add_field(name="Game", value="Out Of Tune", inline=False)
 		embed.add_field(name="Accuracy", value="11/12", inline=False)
@@ -1571,8 +1571,8 @@ async def o11w(ctx):
 						
 @client.command(pass_context=True)
 async def o10r(ctx):
-		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524097358954527/ezgif.com-video-to-gif_5.gif")
 		embed.add_field(name="Game", value="Out Of Tune", inline=False)
 		embed.add_field(name="Accuracy", value="10/12", inline=False)
@@ -1586,8 +1586,8 @@ async def o10r(ctx):
 						
 @client.command(pass_context=True)
 async def o10w(ctx):
-		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Out Of Tune", description="Accuracy of Out Of Tune by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555524097358954527/ezgif.com-video-to-gif_5.gif")
 		embed.add_field(name="Game", value="Out Of Tune", inline=False)
 		embed.add_field(name="Accuracy", value="10/12", inline=False)
@@ -1609,8 +1609,8 @@ async def o10w(ctx):
 						
 @client.command(pass_context=True)
 async def w12(ctx):
-		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(3).gif")
 		embed.add_field(name="Game", value="Words With Friend", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1627,8 +1627,8 @@ async def w12(ctx):
 						
 @client.command(pass_context=True)
 async def w11r(ctx):
-		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(3).gif")
 		embed.add_field(name="Game", value="Words With Friend", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1644,8 +1644,8 @@ async def w11r(ctx):
 						
 @client.command(pass_context=True)
 async def w11w(ctx):
-		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(3).gif")
 		embed.add_field(name="Game", value="Words With Friend", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1662,8 +1662,8 @@ async def w11w(ctx):
 						
 @client.command(pass_context=True)
 async def w10r(ctx):
-		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(3).gif")
 		embed.add_field(name="Game", value="Words With Friend", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1680,8 +1680,8 @@ async def w10r(ctx):
 						
 @client.command(pass_context=True)
 async def w10w(ctx):
-		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="Words With Friend", description="Accuracy of Words With Friend by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://crocrocrocro2003.000webhostapp.com/triviagif/ezgif.com-video-to-gif%20(3).gif")
 		embed.add_field(name="Game", value="Words With Friend", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1703,8 +1703,8 @@ async def w10w(ctx):
 						
 @client.command(pass_context=True)
 async def hqm12(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="12:30AM", inline=False)
@@ -1722,8 +1722,8 @@ async def hqm12(ctx):
 						
 @client.command(pass_context=True)
 async def hqm11r(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="12:30AM", inline=False)
@@ -1740,8 +1740,8 @@ async def hqm11r(ctx):
 						
 @client.command(pass_context=True)
 async def hqm11w(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="12:30AM", inline=False)
@@ -1758,8 +1758,8 @@ async def hqm11w(ctx):
 						
 @client.command(pass_context=True)
 async def hqm10r(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="12:30AM", inline=False)
@@ -1775,8 +1775,8 @@ async def hqm10r(ctx):
 						
 @client.command(pass_context=True)
 async def hqm10w(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="12:30AM", inline=False)
@@ -1793,8 +1793,8 @@ async def hqm10w(ctx):
 						
 @client.command(pass_context=True)
 async def hq12(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1812,8 +1812,8 @@ async def hq12(ctx):
 						
 @client.command(pass_context=True)
 async def hq11r(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1830,8 +1830,8 @@ async def hq11r(ctx):
 						
 @client.command(pass_context=True)
 async def hq11w(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1848,8 +1848,8 @@ async def hq11w(ctx):
 						
 @client.command(pass_context=True)
 async def hq10r(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1866,8 +1866,8 @@ async def hq10r(ctx):
 						
 @client.command(pass_context=True)
 async def hq10w(ctx):
-		embed=discord.Embed(title="HQ", description="Accuracy of HQ by Trivia crack", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
+		embed=discord.Embed(title="HQ", description="Accuracy of HQ by **TIME TRIVIA**", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/555525251522625547/ezgif.com-video-to-gif_1.gif")
 		embed.add_field(name="Game", value="HQ", inline=False)
 		embed.add_field(name="Time", value="6:30AM", inline=False)
@@ -1883,9 +1883,9 @@ async def hq10w(ctx):
 						
 @client.command(pass_context=True)
 async def tchelp(ctx):
-		embed=discord.Embed(title="HELP", description="Help Section for Members", color=0xff0000, url="https://cdn.discordapp.com/emojis/547751178696392704.png?v=1")
-		embed.set_footer(text="Team Trivia Crack", icon_url="https://cdn.discordapp.com/avatars/552073351409958938/e97687fee06e704b429d612509fecfaf.jpg")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/541701782699638796/556095561699295250/ezgif.com-video-to-gif_1.gif")
+		embed=discord.Embed(title="HELP", description="Help Section for Members", color=0xff0000, url="https://im.ezgif.com/tmp/ezgif-1-591cd93aa00e.gif")
+		embed.set_footer(text="Team Time Trivia", icon_url="http://www.animatedimages.org/data/media/562/animated-line-image-0429.gif")
+		embed.set_thumbnail(url="https://imgur.com/PoQHtDR")
 		embed.add_field(name="BB LIFE", value="First type: ```,bblife (Refer_Code) +1(Phone No.)``` Then type: ```,bbcode (OTP)```", inline=False)
 		await client.say(embed=embed)
 
@@ -1895,4 +1895,4 @@ async def tchelp(ctx):
 
 
 												
-client.run("TOKEN")
+client.run("NTU3NDE5MTgxOTY0Nzg3NzM2.D3IPCw.CrvXkEY6g62o8W_OFvs039DMCGg")
