@@ -1,1 +1,1 @@
-worker: python maintc.py
+worker: npm start
